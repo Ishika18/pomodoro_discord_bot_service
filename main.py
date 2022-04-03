@@ -3,9 +3,9 @@ import json
 import discord
 import requests
 
-API_URL = os.environ('API_URL')
-GUILD = os.environ('GUILD')
-TOKEN = os.environ('TOKEN')
+API_URL = os.environ['API_URL']
+GUILD = os.environ['GUILD']
+TOKEN = os.environ['TOKEN']
 
 
 # dummy test function for getting from api
